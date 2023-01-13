@@ -12,6 +12,7 @@ public class Main {
         System.out.println("\n--------------------\n");
 
         numeros.bucleWhile();
+        numeros.doWhile();
 
         System.out.println("\n--------------------\n");
 
