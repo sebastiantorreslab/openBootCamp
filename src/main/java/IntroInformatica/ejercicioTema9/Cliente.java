@@ -1,6 +1,6 @@
 package IntroInformatica.ejercicioTema9;
 
-public class Cliente extends Persona{
+public class Cliente extends Persona {
 
     private double credito;
 
@@ -19,8 +19,11 @@ public class Cliente extends Persona{
 
     @Override
     public String toString() {
-        return "Cliente{" +
-                "credito=" + credito +
+        return "Persona{" +
+                "nombre='" + getNombre() + '\'' +
+                ", edad=" + getEdad() +
+                ", telefono=" + getTelefono() +
+                ", credito=" + getCredito() +
                 '}';
     }
 }

@@ -19,8 +19,11 @@ public class Trabajador extends Persona{
 
     @Override
     public String toString() {
-        return "Trabajador{" +
-                "salario=" + salario +
+        return "Persona{" +
+                "nombre='" + getNombre() + '\'' +
+                ", edad=" + getEdad() +
+                ", telefono=" + getTelefono() +
+                ", salario=" + getSalario() +
                 '}';
     }
 }
