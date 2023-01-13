@@ -1,3 +1,5 @@
+package IntroInformatica.ejercicioTema3;
+
 public class Coche {
 
     int numeroPuertas=0;

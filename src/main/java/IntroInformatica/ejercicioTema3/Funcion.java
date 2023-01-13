@@ -1,3 +1,5 @@
+package IntroInformatica.ejercicioTema3;
+
 public class Funcion {
 
     public int suma(int a, int b, int c){
